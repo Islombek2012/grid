@@ -1,0 +1,41 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.parent{
+      width: 100%;
+      height: 60vh;
+      padding: 30px;
+      display: grid;
+      grid-template-areas: 
+      'a a a a a a'
+      'b c c c d d'
+      'b e e e e e'
+      ;
+}
+
+.child1{
+      background-color: blue;
+      grid-area: a;
+}
+.child2{
+      background-color: green;
+      grid-area: b;
+}
+.child3{
+      background-color: darkcyan;
+      grid-area: c;
+}
+.child4{
+      background-color: gray;
+      grid-area: d;
+}
+.child5{
+      background-color: yellow;
+      grid-area: b;
+}
+.child6{
+      background-color: blanchedalmond;
+      grid-area: e;
+}
